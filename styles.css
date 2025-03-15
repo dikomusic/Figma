@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stats-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.stats-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stats-label {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.stats-change {
+    font-size: 16px;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+.stats-change-percentage {
+    font-size: 16px;
+    color: #4CAF50;
+}
+
+.stats-change-text {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
